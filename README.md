@@ -1,4 +1,6 @@
 # Minikube + Dex example
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkonveyor%2Fminikube_dex_oidc_example.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkonveyor%2Fminikube_dex_oidc_example?ref=badge_shield)
+
 This example will walk through setting up [minikube](https://minikube.sigs.k8s.io/docs/) with a [Kubernetes OpenID Connect token authenticator plugin](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens) via [Dex](https://dexidp.io/) + [GitHub](https://dexidp.io/docs/connectors/github/).  We will be able to authenticate via GitHub, obtaining a JWT token from Dex that we can subsequently use against the Kubernetes API Server to prove who we are.
 
 The work in this repo is heavily based on the following sources:
@@ -147,3 +149,7 @@ Before we can test interaction with the k8s-api-server let's configure a Role an
 
 ## Code of Conduct
 Refer to Konveyor's Code of Conduct [here](https://github.com/konveyor/community/blob/main/CODE_OF_CONDUCT.md).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkonveyor%2Fminikube_dex_oidc_example.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkonveyor%2Fminikube_dex_oidc_example?ref=badge_large)
